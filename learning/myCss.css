@@ -1,0 +1,25 @@
+.top-slider{ 
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -2;
+    height: 500px;
+    
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slide >img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
